@@ -1,0 +1,45 @@
+/* Fonts & Sizing */
+h1
+{
+	color:#58FAF4;
+	text-align:center;
+}
+
+h2
+{
+	color:#58FAF4;
+}
+
+/* Structure */
+body
+{
+	background-color:#000000;
+}
+
+.main{
+	background-color:#585858;
+	color:#00FF00;
+	margin-left: 200px;
+	margin-right: 200px;
+	
+}
+
+.leftContent{
+	float: left;
+	padding: 15px;
+}
+
+.rightContent{
+	float: right;
+	padding: 15px;
+}
+
+img .leftPic{
+	align: left;
+
+}
+
+img .rightPic{
+	align: right;
+
+}
