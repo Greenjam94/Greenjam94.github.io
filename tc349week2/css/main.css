@@ -17,30 +17,32 @@ body
 	background-color:#000000;
 }
 
-p
-{
-	float: left;
-}
-
 .main
 {
 	background-color:#585858;
 	color:#00FF00;
 	margin-left: 200px;
 	margin-right: 200px;
+	height: 1325px;
 	
 }
 
 .Content
 {
+	background-color:#424242;
 	padding: 20px;
 }
+.Content.p{
+	
+}
+
+.footer
+{
 
 }
 
-img .rightPic
+.rightPic
 {
-	align: right;
-	margin-left: 20px;
-
+	float: right;
+	margin: 0px;
 }
