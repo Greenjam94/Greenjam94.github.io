@@ -1,0 +1,56 @@
+/*
+Color Scheme - Analogic Color Choice
+-------------
+1) #FF9200  <- 1st highlight
+2) #FFBF00  <- 2nd highlight
+3) #FF4900  <- 3rd highlight
+4) #FFCF40  <- Background
+5) #a65f00  <- Text
+*/
+
+body {
+	background: #FFCF40;
+	margin: 0px;
+	padding: 0px;
+}
+header{
+	text-align: center;
+	background: #FF4900;
+	color: #FFBF00;
+	clear: both;
+	margin: 0px 0px;
+}
+.wrap {
+	margin: 0px 5%;
+	width:  100%;
+}
+.BigBox{
+	width: 200px;
+	padding: 10px;
+	margin: 30px;
+	float: left;
+	background: #FFDC73;
+	padding: 0px;
+	border: solid #FF4900;
+}
+.LilBox{
+	background: #FFBF00;
+	margin: 0px;
+
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+h2{
+	color: #A65F00;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 10px;
+}
+p {
+	color: #A65F00;
+	margin: 0px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+}
