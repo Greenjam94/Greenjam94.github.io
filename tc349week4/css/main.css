@@ -150,14 +150,22 @@ nav a {
 /* Article */
 article{
     margin-left: 300px;
+    width: 60%;
 }
 
+/* Gallery */
+ul {
+    list-style-type: none;
+}
+.Gallery li{
+    float: left;
+    text-align: center;
+}
 
-
-
-
-
-
+/* Contact */
+#Contact{
+    clear: both;
+}
 
 
 
