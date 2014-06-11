@@ -104,12 +104,12 @@ body {
 
 header {
     background: url(../img/profile.jpg);
-    height: 1020px;
-    padding: 40px;
+    height: 420px;
+    padding: 30px;
 }
 
 h1 {
-    padding-top: 980px;
+    padding-top: 350px;
 }
 
 h2 {
@@ -125,18 +125,31 @@ h1, h2 {
 #MapLocation{
     padding: 40px;
     height: 120px;
-    transition: background-image 1s;
+    transition: background-image .5s;
 }
 
 /* Nav */
 nav {
     float: left;
     width: 250px;
+    padding-top: 15px;
+}
+
+nav ul {
+    margin: 5px;
+}
+
+nav a {
+    color: #424242;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border: 1px solid;
 }
 
 /* Article */
 article{
-    margin-left: 265px;
+    margin-left: 300px;
 }
 
 
