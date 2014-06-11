@@ -166,6 +166,9 @@ article{
     margin-left: 300px;
     width: 60%;
 }
+article p {
+    margin-left: 20px;
+}
 
 /* Gallery */
 ul {
