@@ -94,3 +94,9 @@ Paige Schank
 Autumn Nagel
 	Floor
 	"Life isn't about waiting for the storm to pass, it's about learning to dance in the rain"
+Dave C Meek
+	Vault & Floor
+	"It's always hard to keep going after a fall! you feel like it's over - You feel like you have no chance, but I can not give up"
+Mason Marek
+	Floor & Pommel Horse
+	"With passion, hard work, and patience, what at one time seemed impossible will be possible"
