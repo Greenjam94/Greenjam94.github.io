@@ -113,9 +113,8 @@ h1 {
 
 /* Relates to nav bar - nav */
 nav ul {
-    background: #fff;
+    background: #31B404;
     margin: 0;
-    padding: 10px 0px 10px 0px;
 }
 nav li {
     float: left;
@@ -139,17 +138,6 @@ article {
     margin-left: 20%;
     margin-right: 20%;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
@@ -259,10 +247,24 @@ article {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media (max-width: 800px) {
+    header {
+       height: 300px;
+    }
+    nav {
+        float: left;
+        width: 100px;
+    }
+    nav li {
+       float: none;
+    }
 }
 
+@media (max-width: 400px){
+    header {
+       height: 200px;
+    }
+}
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
