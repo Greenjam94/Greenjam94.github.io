@@ -100,3 +100,12 @@ Dave C Meek
 Mason Marek
 	Floor & Pommel Horse
 	"With passion, hard work, and patience, what at one time seemed impossible will be possible"
+Becca Garber
+	Floor
+	"Happinesss isn't a constant. You only get fleeting glimpses, and most of the time you have to fight for those moments. But they make it all worth the fight."
+Katie Harris
+	Floor & Beam
+	"The glass is half full"
+Justine Swartzendruber
+	Floor
+	"Lions don't lose sleep over the opinions of sheep."
