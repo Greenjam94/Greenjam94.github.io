@@ -96,10 +96,48 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
 
+/* Relates to header - header */
+header {
+    background: #ccc;
+    height: 600px;
+}
 
+h1 {
+    padding-top: 550px;
+}
 
+/* Relates to nav bar - nav */
+nav ul {
+    background: #fff;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+}
+nav li {
+    float: left;
+    width: 16%;
+    text-align: center;
+}
+nav li:hover {
+    border: 1px solid;
+}
 
+/* Relates to id - main */
+#main {
+    background: #006600;
+    clear: both;
+}
+
+/* Relates to article - article */
+
+article {
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
 
 
