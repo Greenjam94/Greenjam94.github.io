@@ -94,7 +94,7 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   James' custom styles
    ========================================================================== */
 h1, h2, p {
     margin: 0;
@@ -103,41 +103,73 @@ h1, h2, p {
 
 /* Relates to header - header */
 header {
-    background: #ccc;
+    background: url(../img/indexheader.jpg);;
     height: 600px;
 }
 
 h1 {
-    padding-top: 550px;
+    padding: 550px 0 0 50px;
+    color: #fff;
 }
 
 /* Relates to nav bar - nav */
-nav ul {
-    background: #31B404;
-    margin: 0;
+nav {
+    width: 100%;
 }
-nav li {
-    float: left;
-    width: 16%;
+nav p {
+    background: #ccc;
     text-align: center;
+    height: 35px;
+    padding-top: 15px;
 }
-nav li:hover {
+nav a {
+    width: 16%;
+    margin: 60px;
+    text-decoration: none;
+}
+nav a:hover {
     border: 1px solid;
 }
 
 /* Relates to id - main */
 #main {
+    margin-top: 50px;
     background: #006600;
     clear: both;
 }
 
-/* Relates to article - article */
+/* Relates to article & footer */
 
-article {
+article, footer {
+    clear: both;
     background: #fff;
     margin-left: 20%;
     margin-right: 20%;
 }
+
+article h2 {
+    padding-top: 15px;
+}
+
+article h2, article h3{
+    padding-left: 15px;
+}
+
+article p {
+    padding-left: 25px;
+}
+
+hr {
+    background: #CCC;
+    height: 2px;
+}
+
+footer {
+    color: #006600;
+    padding-top: 10px;
+    text-align: center;
+}
+
 
 
 /* ==========================================================================

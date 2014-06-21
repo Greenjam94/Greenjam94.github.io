@@ -109,3 +109,12 @@ Katie Harris
 Justine Swartzendruber
 	Floor
 	"Lions don't lose sleep over the opinions of sheep."
+Franky Hang
+	Floor
+	"Inspiration is Free"
+Michaela Ewald
+	Floor
+	"If you want to lift yourself up, lift up someone else"
+Danny Wilson
+	Rings/Floor
+	"Running won't kill you, you will pass out first"
