@@ -101,6 +101,22 @@ h1, h2, p {
     padding: 0;
 }
 
+p {
+    font-size: 20px;
+}
+
+ul {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
 /* Relates to header - header */
 header {
     background: url(../img/indexheader.jpg);;
@@ -108,8 +124,9 @@ header {
 }
 
 h1 {
-    padding: 550px 0 0 50px;
+    padding: 525px 0px 0px 30px;
     color: #fff;
+    font-size: 45px;
 }
 
 /* Relates to nav bar - nav */
@@ -117,24 +134,27 @@ nav {
     width: 100%;
 }
 nav p {
-    background: #ccc;
+    background: #000;
     text-align: center;
     height: 35px;
     padding-top: 15px;
+    padding-bottom: 8px;
 }
 nav a {
+    color: #fff;
     width: 16%;
     margin: 60px;
     text-decoration: none;
 }
 nav a:hover {
+    padding: 10px;
     border: 1px solid;
 }
 
 /* Relates to id - main */
 #main {
     margin-top: 50px;
-    background: #006600;
+    background: url(../img/greenBackground.jpg);
     clear: both;
 }
 
@@ -152,11 +172,11 @@ article h2 {
 }
 
 article h2, article h3{
-    padding-left: 15px;
+    padding-left: 20px;
 }
 
 article p {
-    padding-left: 25px;
+    padding-left: 35px;
 }
 
 hr {
@@ -168,6 +188,10 @@ footer {
     color: #006600;
     padding-top: 10px;
     text-align: center;
+}
+
+footer p {
+    font-size: 10px;
 }
 
 

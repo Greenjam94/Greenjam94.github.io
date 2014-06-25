@@ -1,0 +1,27 @@
+/* ==========================================================================
+   James' custom styles for members.html
+   ========================================================================== */
+header {
+    background: url(../../img/membersheader.jpg);
+    height: 600px;
+}
+
+.profile {
+	width: 600px;
+	height: 480px;
+	margin-left: 70px;
+	float: left;
+}
+.profile h3 {
+	margin-bottom: 8px;
+}
+.profile img {
+	width: 300px;
+	height: 400px;
+}
+
+article p {
+	clear: both;
+	padding-left: 0px;
+	text-align: center;
+}

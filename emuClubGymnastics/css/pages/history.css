@@ -1,0 +1,16 @@
+/* ==========================================================================
+   James' custom styles for history.html
+   ========================================================================== */
+header {
+    background: url(../../img/historyheader.jpg);
+    height: 600px;
+}
+
+article p {
+    padding-bottom: 10px;
+}
+
+article ul {
+    margin-left: 60px;
+}
+

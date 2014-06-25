@@ -1,0 +1,16 @@
+/* ==========================================================================
+   James' custom styles for schedule.html
+   ========================================================================== */
+header {
+    background: url(../../img/scheduleheader.jpg);
+    height: 600px;
+}
+
+.detail {
+	padding-left: 90px;
+}
+
+#notice {
+	padding-top: 30px;
+	text-align: center;
+}

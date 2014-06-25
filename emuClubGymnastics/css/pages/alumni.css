@@ -1,0 +1,29 @@
+/* ==========================================================================
+   James' custom styles for alumni.html
+   ========================================================================== */
+header {
+    background: url(../../img/indexheader.jpg);
+    height: 600px;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+#centerTable {
+	margin-left: 130px;
+}
+article table {
+	float: left;
+}
+
+article td {
+	text-align: center;
+}
+article p {
+	padding-top: 20px;
+	clear: both;
+	text-align: center;
+}
+
+

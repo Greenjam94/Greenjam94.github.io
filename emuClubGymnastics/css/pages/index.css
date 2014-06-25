@@ -1,0 +1,13 @@
+/* ==========================================================================
+   James' custom styles for index.html
+   ========================================================================== */
+header {
+    background: url(../../img/indexheader.jpg);
+    height: 600px;
+}
+
+#webmaster p {
+    text-align:center;
+    margin-top:30px;
+    padding-left: 0px;
+}
