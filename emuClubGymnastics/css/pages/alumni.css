@@ -2,7 +2,7 @@
    James' custom styles for alumni.html
    ========================================================================== */
 header {
-    background: url(../../img/indexheader.jpg);
+    background: url(../../img/alumniheader.jpg);
     height: 600px;
 }
 
@@ -26,4 +26,31 @@ article p {
 	text-align: center;
 }
 
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
 
+@media (max-width: 800px) {
+	header {
+       height: 300px;
+       background: url(../../img/alumni800x300.jpg);
+    }
+}
+
+@media (max-width: 400px) {
+	header {
+       height: 200px;
+       background: url(../../img/alumni400x200.jpg);
+    }
+    h2 {
+    	font-size: 1em;
+    }
+    h2, table, p, footer p {
+    	color: #fff;
+    }
+    #centerTable {
+		margin-left: 20%;
+	}
+}
