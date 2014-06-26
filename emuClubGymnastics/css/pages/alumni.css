@@ -11,7 +11,7 @@ h2 {
 }
 
 #centerTable {
-	margin-left: 130px;
+	margin-left: 27.5%;
 }
 article table {
 	float: left;
@@ -46,9 +46,6 @@ article p {
     }
     h2 {
     	font-size: 1em;
-    }
-    h2, table, p, footer p {
-    	color: #fff;
     }
     #centerTable {
 		margin-left: 20%;

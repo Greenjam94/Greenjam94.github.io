@@ -5,11 +5,9 @@ header {
     background: url(../../img/indexheader.jpg);
     height: 600px;
 }
-
-#webmaster p {
-    text-align:center;
-    margin-top:30px;
-    padding-left: 0px;
+article p {
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 /* ==========================================================================
@@ -22,6 +20,10 @@ header {
 	header {
        height: 300px;
        background: url(../../img/index800x300.jpg);
+    }
+    img {
+    	height: 300px;
+    	width: 800px;
     }
 }
 

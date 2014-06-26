@@ -9,7 +9,7 @@ header {
 .profile {
 	width: 600px;
 	height: 480px;
-	margin-left: 70px;
+	margin-left: 20%;
 	float: left;
 }
 .profile h3 {
@@ -23,6 +23,11 @@ header {
 article p {
 	clear: both;
 	padding-left: 0px;
+	text-align: center;
+}
+
+#notice {
+	padding-top: 30px;
 	text-align: center;
 }
 
@@ -56,8 +61,5 @@ article p {
 	header {
        height: 200px;
        background: url(../../img/members400x200.jpg);
-    }
-    h3, h2, p, footer p {
-    	color: #fff;
     }
 }
