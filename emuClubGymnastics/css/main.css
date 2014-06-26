@@ -102,11 +102,11 @@ h1, h2, p {
 }
 
 p, ul {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 h2 {
@@ -169,13 +169,16 @@ article h2 {
 article h2, article h3{
     padding-left: 5%;
 }
+article p {
+    padding-left: 10%;
+    padding-right: 10%
+}
 
 #webmaster {
     text-align:center;
     padding-top: 30px;
     padding-left: 0px;
 }
-
 
 hr {
     background: #CCC;
@@ -190,6 +193,8 @@ footer {
 
 footer p {
     padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
 }
 
 #notice {
