@@ -3,6 +3,7 @@
    ========================================================================== */
 header {
     background: url(../../img/historyheader.jpg);
+    background-size: cover;
     height: 600px;
 }
 

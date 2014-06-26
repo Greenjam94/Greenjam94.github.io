@@ -3,6 +3,7 @@
    ========================================================================== */
 header {
     background: url(../../img/indexheader.jpg);
+    background-size: cover;
     height: 600px;
 }
 article p {

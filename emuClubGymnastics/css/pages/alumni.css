@@ -3,6 +3,7 @@
    ========================================================================== */
 header {
     background: url(../../img/alumniheader.jpg);
+    background-size: cover;
     height: 600px;
 }
 

@@ -3,12 +3,13 @@
    ========================================================================== */
 header {
     background: url(../../img/membersheader.jpg);
+    background-size: cover;
     height: 600px;
 }
 
 .profile {
-	width: 600px;
-	height: 480px;
+	width: 60%;
+	height: 375px;
 	margin-left: 20%;
 	float: left;
 }
@@ -16,19 +17,19 @@ header {
 	margin-bottom: 8px;
 }
 .profile img {
-	width: 300px;
-	height: 400px;
+	width: 150px;
+	height: 200px;
 }
 
 article p {
 	clear: both;
-	padding-left: 0px;
 	text-align: center;
+	padding-right: 0px;
+	padding-left: 0px;
 }
 
 #notice {
 	padding-top: 30px;
-	text-align: center;
 }
 
 /* ==========================================================================
@@ -45,11 +46,13 @@ article p {
 	.profile {
 		width: 60%;
 		height: 150px;
-		margin-left: 70px;
+		margin-left: 10%;
+		margin-right: 10%;
 		float: left;
 	}
 	.profile h3 {
 		margin-bottom: 8px;
+		padding-left: 
 	}
 	.profile img {
 		width: 100px;
@@ -59,7 +62,10 @@ article p {
 
 @media (max-width: 400px) {
 	header {
-       height: 200px;
+       height: 250px;
        background: url(../../img/members400x200.jpg);
+    }
+    .profile {
+    	margin-left: 5%;
     }
 }
