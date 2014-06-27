@@ -32,6 +32,15 @@ article p {
 	padding-top: 30px;
 }
 
+#largeImgPanel {
+	text-align: center;
+	visibility: hidden;
+	position: fixed;
+	z-index: 100;
+	top: 0; left: 0; width: 50%; height: 50%;
+	background-color: rgba(100,100,100, 0.5);
+}
+
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
