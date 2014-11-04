@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<link href="css/bootstrap.css" rel="stylesheet" >
+<link href="css/kali.css" rel="stylesheet" >
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="js/bootstrap.js"></script>
+	<head>
+		<title>Kali Linux</title>
+	</head>
+	<body>
+		<div id="main_content">
+		<!--Header copied from bootstrap-->
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="index.php">James Green</a>
+				</div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a href="index.php">Homepage</a></li>
+						<li class="active"><a href="projects.php">Projects</a></li>
+						<li><a href="interests.php">Interests</a></li>
+				
+				</div><!-- /.navbar-collapse -->
+		    </div><!-- /.container-fluid -->
+		</nav>
+
+		<div class="container">
+			<div class="panel panel-default">
+			  <div class="panel-body">
+			    Table of Contents
+			    <ul>
+			    	<li><a href="#intro">Introduction</a></li>
+			    	<li><a href="#install">Install</a></li>
+			    	<li><a href="#custom">Customization</a></li>
+			    	<li><a href="#script">Scripts</a></li>
+			    	<li><a href="#ref">Reference</a></li>
+			    </ul>
+			  </div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+	    			<h3 class="panel-title">Introduction</h3>
+	  			</div>
+  				<div class="panel-body">
+			  		<a name="intro"></a>
+			    	<p>One of the first CSE groups I found at Michigan State was a little group called "Defense against the Dark Arts", a grad student really enjoyed his work with computer security and hosted a couple meetings where he demonstrated a few hacking examples.
+					When I went, everyone was dual-booting their laptops with something called BackTrack (later I learned that was a Linux OS that is the prelude to Kali).
+			    	This is where I learned about Offensive Security's new system Kali.
+			    	</p>
+			    	<p>Now, Kali is a Linux system based on Debian. It's used for digital forensics and penetration testing[1].
+			    	Basically, its a collection of some of the security worlds finest tools of the trade and we can use Kali for all these tools in one central place.
+			    	One machine can be used to map a network, find the router, and start intercepting passwords and data for instance.</p>
+			  </div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+	    			<h3 class="panel-title">Installation</h3>
+	  			</div>
+  				<div class="panel-body">
+				  	<a name="install"></a>
+				    <p>
+				    If you're trying to get your hands on a distribution of Kali, it's really simple (or so I'm told). The basic idea is that you download an image (.iso file) and that's the blueprints to the new operating system.
+				    </p>
+				    <p>
+				    You have a few options based on the hardware or computer experience that you have. For instance you could save the system to a usb flash drive and boot from that when you start any machine. You could dual-boot your laptop. Or you could have virtual machines inside of a OS you already use (ie windows). There are so many options that it's a really good idea to research what would be best before you try to install something and possibly break the only thing you can use to write next week's exam.
+				    </p>
+				    <p>
+				    I'll try to give my best step by step tutorials on how to do a few installs, but for those who want more trusted step-by-step processes should go here {{Link coming soon}} If my steps confuse you, then please go to Kali's Forum's there is a lot more knowledgeable support.
+					</p>
+
+					<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#usb">
+					  USB
+					</button>
+					<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#harddrive">
+					  Dedicated Machine
+					</button>
+					<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#other">
+					  Other Ways
+					</button>
+
+					<div id="usb" class="collapse">
+						<a href="http://kali.org/downloads">Download Kali linux</a>
+						<p>This next Step depends on your current OS <br>
+						Windows - Use these steps<br>
+						Mac / Linux - Use these steps<br>
+						...<br>
+						<a href="https://docs.kali.org/installation/kali-linux-live-usb-install">Instructions borrowed from Offensive Secuirty</a></p>
+					</div>
+					<div id="harddrive" class="collapse">
+						Follow Instructions from USB
+						Boot from that USB
+						Follow prompts to install Kali
+						{{More to Come}}
+					</div>
+					<div id="other" class="collapse">
+						{{I haven't tried}}
+					</div>
+			  </div>
+			</div>
+			
+			<div class="panel panel-default">
+				<div class="panel-heading">
+	    			<h3 class="panel-title">Customization</h3>
+	  			</div>
+  				<div class="panel-body">
+				  	<a name="custom"></a>
+				    
+			  </div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+	    			<h3 class="panel-title">Script kiddies R us</h3>
+	  			</div>
+  				<div class="panel-body">
+				  	<a name="script"></a>
+				    
+			  </div>
+			</div>
+
+			<div class="panel panel-default">
+				<div class="panel-heading">
+	    			<h3 class="panel-title">References</h3>
+	  			</div>
+  				<div class="panel-body">
+				  	<a name="ref"></a>
+				    [1] http://en.wikipedia.org/wiki/Kali_Linux
+			  </div>
+			</div>
+		</div>
+
+
+		</div>
+
+		
+	</body>

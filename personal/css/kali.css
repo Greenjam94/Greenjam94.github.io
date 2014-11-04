@@ -1,0 +1,11 @@
+body{
+	background-image: url(../images/kaliBackground.jpg);
+	background-size:100%;
+}
+
+.panel.panel-default {
+	opacity: 0.3;
+}
+.panel.panel-default:hover {
+   opacity: .9;
+}
