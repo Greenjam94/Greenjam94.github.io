@@ -1,0 +1,8 @@
+.red {
+	color: red;
+}
+
+/* ng cloak */
+[ng\:cloak], [ng-cloak], [data-ng-cloak] {
+	display: none !important;
+}
