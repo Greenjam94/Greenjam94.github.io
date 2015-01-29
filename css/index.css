@@ -1,0 +1,8 @@
+/* custom CSS for github pages @ greenjam94.github.io */
+.panel-body {
+	display: none;
+}
+
+.panel.panel-default:hover .panel-body {
+	display: block;
+}
