@@ -1,4 +1,11 @@
 /* custom CSS for github pages @ greenjam94.github.io */
+
+/* ----------------- Header ------------------------- */
+.page-header {
+	padding-left: 25px;
+}
+
+/* ----------------- Panels ------------------------- */
 .panel-body {
 	display: none;
 }
