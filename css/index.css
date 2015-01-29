@@ -1,8 +1,16 @@
 /* custom CSS for github pages @ greenjam94.github.io */
 
+/* ----------------- Background --------------------- */
+body {
+	background-image: url(../images/indexBackgroundXL.jpg);
+}
+
 /* ----------------- Header ------------------------- */
 .page-header {
+	background-color: #58FA58;
 	padding-left: 25px;
+	padding-top: 10px;
+	margin-top: 0px;
 }
 
 /* ----------------- Panels ------------------------- */
