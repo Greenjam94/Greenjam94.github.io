@@ -12,12 +12,3 @@ body {
 	padding-top: 10px;
 	margin-top: 0px;
 }
-
-/* ----------------- Panels ------------------------- */
-.panel-body {
-	display: none;
-}
-
-.panel.panel-default:hover .panel-body {
-	display: block;
-}

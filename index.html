@@ -8,21 +8,24 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
 	<!-- Custom CSS -->
 	<link href="css/index.css" rel="stylesheet" >
+
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<!-- Custom JS -->
+	<script src="js/slider.js"></script>
 </head>
 <body>
 	<div class="page-header">
-		<h1>Greenjam94's Github Pages: <small>My sitemap for HTML projects</small></h1>
+		<h1>Greenjam94's Github Pages: <small> Proof that I'm a better developer than I was a year ago</small></h1>
 	</div>
 	<div class="container">
 		<div class="panel panel-default">
-			<div class="panel-heading">
+			<div class="panel-heading" id="header1">
 		    	<h3 class="panel-title">Personal Projects</h3>
 		    	<p> Photographers have portfolios,  but they aren't the only ones. Now, this isn't a glossy black binder of my best work... but it is where I do my development work!</p>
 		    </div>
-		  	<div class="panel-body">
+		  	<div class="panel-body" id="body1">
 		    	<div class="row">
 				  	<div class="col-sm-6 col-md-4">
 				    	<div class="thumbnail">
@@ -62,12 +65,12 @@
 				        		<p>I am going into the computer security field, this is my progress on using Kali Linux and how you can learn to do the same.</p>
 				           		<p>
 				        			<a href="/kali/index.html" class="btn btn-primary" role="button">Continue</a>
-				        			<a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#koraModal">More Information</a>
+				        			<a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#kaliModal">More Information</a>
 				        		</p>
 				     		</div>
 				    	</div>
-				    	<!-- koraModal -->
-						<div class="modal fade" id="koraModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				    	<!-- kaliModal -->
+						<div class="modal fade" id="kaliModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 						  <div class="modal-dialog">
 						    <div class="modal-content">
 						      <div class="modal-header">
@@ -118,11 +121,112 @@
 		  	</div>
 		</div>
 		<div class="panel panel-default">
-			<div class="panel-heading">
+			<div class="panel-heading" id="header2">
+		    	<h3 class="panel-title">Professional Projects</h3>
+		    	<p>I'd love to say I spend every hour of my day on personal projects, but thats not the case. This is some of my professional work.</p>
+		    </div>
+		  	<div class="panel-body" id="body2">
+		    	<div class="row">
+				  	<div class="col-sm-6 col-md-4">
+				    	<div class="thumbnail">
+				      		<img data-src="holder.js/300x300" src="images/kora.jpg" alt="Image Not Found">
+				      		<div class="caption">
+				        		<h3>KORA</h3>
+				        		<p>a database driven, online digital repository that allows users to manage digital objects and corresponding metadata.</p>
+				           		<p>
+				        			<a href="http://kora.sourceforge.net" class="btn btn-primary" role="button">Continue</a>
+				        			<a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#koraModal">More Information</a>
+				        		</p>
+				     		</div>
+				    	</div>
+				    	<!-- koraModal -->
+						<div class="modal fade" id="koraModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Devlopement on KORA</h4>
+						      </div>
+						      <div class="modal-body">
+						        <p>I've been working with KORA for two years, most student developers hate working with this project but I rather enjoy it. I've been fixing bugs and adding features since version 2.3.0 and I'm happy to say I've only seen it get better. I've worked on items like public Ingestion and the restfulAPI that comes with KORA.</p>
+						        <p>Look forward to the new KORA 3.0! It's underdevelopment and will blow your mind if you're unhappy with KORA 2.X.X</p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				  	</div>
+				  	<div class="col-sm-6 col-md-4">
+				    	<div class="thumbnail">
+				      		<img data-src="holder.js/300x300" src="images/wp.jpg" alt="Image Not Found">
+				      		<div class="caption">
+				        		<h3>Wordpress KORA Plugin</h3>
+				        		<p>Wordpress sandbox for testing the KORA plugin</p>
+				           		<p>
+				        			<a href="http://dev2.matrix.msu.edu/~james.green/wp-jamesDev/" class="btn btn-primary" role="button">Continue</a>
+				        			<a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#wpModal">More Information</a>
+				        		</p>
+				     		</div>
+				    	</div>
+				    	<!-- WordpressModal -->
+						<div class="modal fade" id="wpModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Development on Wordpress</h4>
+						      </div>
+						      <div class="modal-body">
+						        <p>It's a basic version of Wordpress, but the KORA plugin is where the magic happens. Basically it's a plugin that utalizes the restfulAPI I overhauled to display and even sort KORA records.</p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				  	</div>
+				  	<div class="col-sm-6 col-md-4">
+				    	<div class="thumbnail">
+				      		<img data-src="holder.js/300x300" src="images/drupal.jpg" alt="Image Not Found">
+				      		<div class="caption">
+				        		<h3>Drupal Sandbox</h3>
+				        		<p>Everyone loves drupal right? This is where I learned to use it.</p>
+				           		<p>
+				        			<a href="http://dev2.matrix.msu.edu/~james.green/drupal-JamesDev/" class="btn btn-primary" role="button">Continue</a>
+				        			<a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#drupalModal">More Information</a>
+				        		</p>
+				     		</div>
+				    	</div>
+				    	<!-- drupalModal -->
+						<div class="modal fade" id="drupalModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						  <div class="modal-dialog">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						        <h4 class="modal-title" id="myModalLabel">Things about Drupal</h4>
+						      </div>
+						      <div class="modal-body">
+						        <p>I went to Drupal Camp Michigan 2015 at Henry Ford College to support Matrix's System Admin as he presented and while I was there I got hooked on the possibilites of Drupal Developement. Talk about an easy way to create, update, and release websites! Still waiting to see how Matrix will use Drupal; but one day it will happen and I'll be ready.</p>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+				  	</div>
+				</div>
+		  	</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading" id="header3">
 		    	<h3 class="panel-title">Angular JS tutorials and more</h3>
 		    	<p>Work from following along with videos from <a href="https://www.udemy.com/course/angularjs-jumpstart">Udemy</a>. Thanks to <a href="http://www2.matrix.msu.edu/">Matrix</a> for getting me access!</p>
 		    </div>
-		  	<div class="panel-body">
+		  	<div class="panel-body" id="body3">
 				<div class="row">
 				  	<div class="col-sm-6 col-md-4">
 				    	<div class="thumbnail">
@@ -222,11 +326,11 @@
 		  	</div>
 		</div>
 		<div class="panel panel-default">
-			<div class="panel-heading">
+			<div class="panel-heading" id="header4">
 		    	<h3 class="panel-title">TC349 - Classwork</h3>
 		    	<p> Classwork and Projects used for a college Web Design class.</p>
 		    </div>
-		  	<div class="panel-body">
+		  	<div class="panel-body" id="body4">
 				<div class="row">
 				  	<div class="col-sm-6 col-md-4">
 				    	<div class="thumbnail">
@@ -294,11 +398,11 @@
 		  	</div>
 		</div>
 		<div class="panel panel-default">
-			<div class="panel-heading">
+			<div class="panel-heading" id="header5">
 		    	<h3 class="panel-title">TC362 - Classwork</h3>
 		    	<p> Classwork and Projects used for a college Web Design class.</p>
 		    </div>
-		  	<div class="panel-body">
+		  	<div class="panel-body" id="body5">
 				<div class="row">
 				  	<div class="col-sm-6 col-md-4">
 				    	<div class="thumbnail">
