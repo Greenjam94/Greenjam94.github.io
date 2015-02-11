@@ -21,4 +21,8 @@ $(document).ready(function(){
 	$("#header5").click(function(){
 		$("#body5").slideToggle('slow')
 	});
+
+	$("#header6").click(function(){
+		$("#body6").slideToggle('slow')
+	});
 });
