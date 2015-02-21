@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html data-ng-app="">
+<head>
+	<title>Using Directives</title>
+</head>
+
+<body data-ng-init="name='James Green'">
+	<div data-ng-hide="isHidden">
+		Name: <input type="text" data-ng-model="name" /> {{ name }} 
+	</div>
+
+	Hide: <input type="checkbox" data-ng-model="isHidden"/> <span ng-bind="name"></span>
+	<br>
+
+	<button data-ng-click="name='Rachel Ewald'">Change Name</button>
+
+	<!-- Scripts at end, load HTML first -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+</body>
+
+</html>

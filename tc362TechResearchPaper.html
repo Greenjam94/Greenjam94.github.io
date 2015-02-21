@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/vertafore.css">
+	<title>Vertafore inside and out</title>
+</head>
+<body>
+	<div class="header">
+		<div class="header-text">
+			<h1>Vertafore: Inside and Out</h1>
+			<p id="hp">Written by James Green on Feb. 20, 2015</p>
+		</div>
+	</div>
+	<div class="container">
+		<div>
+			<img src="images/vertafore_logo1.png" class="img-right">
+			<p class="intro">Who's heard of Vertafore? If you're a Michigan State student interested in software
+				development, you've probably tried to get a internship there. Vertafore is the fastest growing Insurance
+				related software company in the country and I had the privilege of working there last summer as an intern
+				and was able to talk recently to some of the developers I worked with to answer a couple questions.
+			 	<br><br>
+			 	Vertafore is a massive company. It has terabytes of data, outstanding products, and a long list of happy
+			 	customers. But what kind of technology lies beneath the surface of this giant corporation?</p>
+		</div>
+		<hr>
+		<div class="content">
+			<div class="content-header">
+				<h3>What kind of servers and databases are used?</h3>
+			</div>
+			<div class="content-body">
+				<p>Vertafore uses a combination of Linux and Solaris servers to host their products. The physical
+					servers host a cluster of virtual servers that act a lot like a processor cluster on your computer.
+					The VMs all have their own jobs and tasks to keep all of Vertafore's products online. There is a
+					load balancer that "sits on top" of the cluster and keeps everything in order, as well as knowing
+					when a server fails so a redundant machine can be brought up to keep the service running without
+					any downtime. To make sure that there's as little down time as possible, there are at least two VMs
+					with the same task at any given time. This set up allows Vertafore to ensure a uptime of about
+					99.999%</p>
+				<p>Vertafore uses Oracle Databases to store their data. Unfortunately I wasn't allowed to know more
+					for confidentiality reasons.</p>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="content-header">
+				<h3>Do developers at Vertafore use some kind of special software?</h3>
+			</div>
+			<div class="content-body">
+				<a href="https://www.jetbrains.com/idea/"><img src="images/intelliJ.gif" id="intelliJ" class="img-left" width="400" height="216"></a>
+				<p id="intelliJtext">Vertafore has an enterprise license to use IntelliJ IDEA, a pretty extensive 
+					JAVA IDE. IntelliJ allows developers to manage version control, different projects, frameworks and more all from one environment. Over the summer was the first time I used something like that, and compared to using a simple text editor and command line to commit, a IDE this complex is pretty
+					special.</p>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="content-header">
+				<h3>What kind of open source software or hardware is used?</h3>
+			</div>
+			<div class="content-body">
+				<p>Vertafore develops most of it software in house and is primarily a software based company. However
+					it uses certain Java frameworks that are open source, such as Beans, Struts, Junit, and more.
+					Recently Vertafore has been looking at ways to modernize some applications and are trying out
+					software like AngularJS to revamp the front end of some of their web based applications</p>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="content-header">
+				<h3>What kind of deployment strategies are in use?</h3>
+			</div>
+			<div class="content-body">
+				<p>Vertafore has implemented Agile and Scum methods to organize development teams and product releases
+					for years.</p>
+				<p>One of the new buzz words that are heard along side terms like "Big data" is "Continuous
+					Integration" meaning that developers make many small commits in a single day. These commits roll
+					through a server for a test group of users and is then pushed up to the production server once the
+					changes are acceptable. Vertafore uses <a href="https://www.atlassian.com/software/bamboo">Bamboo</a>
+					to manage and automate builds that makes this very easy from a developer's standpoint.</p>
+			</div>
+		</div>
+
+		<div class="content">
+			<div class="content-header">
+				<h3>How is the company secure from cyber threats?</h3>
+			</div>
+			<div class="content-body">
+				<p>Vertafore has user security like every other major company and it encrypts sensitive data as well.
+					What I want to make note of is their network security in particular. They're very secure in the fact
+					that unless they have given you access in the first place, it is nearly impossible to break into their
+					network.</p>
+			</div>
+		</div>
+		<hr>
+		<div class="content">
+			<div class="content-header">
+				<h3>Resources</h3>
+			</div>
+			<div class="content-body">
+				<p>(W. Rogers-Snodgrass, E. Jaquith, R. Stout, S. Chu,  A. Murphy, G. Leung, personal communication, Febuary, 2015)</p>
+				<p>Designed this blog after <a href="http://www.vertafore.com/Resources/Blog">Vertafore's blog</a> and the <a href="https://signalvnoise.com/posts/3202-behind-the-scenes-the-hardware-that-powers-basecamp-campfire-and-highrise">Basecamp article</a></p>
+				<p>Downloaded a .gif from IntelliJ's <a href="https://www.jetbrains.com/idea/">Project Page</a></p>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<span class="circular"></span>
+		<div class="content-right">
+			<div class="content-header">
+				<h3>About the Author</h3>
+			</div>
+			<p id="footerP"> Hi, I'm James. A Student at Michigan State University.<br>
+				I used to study Computer Science but now I'm a Media and Information major.
+				I had an awesome internship with Vertafore which is why I wrote about them
+				for this class project.</p>
+		</div>
+	</div>
+</body>
+</html>
