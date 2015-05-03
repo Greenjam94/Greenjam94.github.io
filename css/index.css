@@ -5,10 +5,18 @@ body {
 	background-image: url(../images/indexBackgroundXL.jpg);
 }
 
-/* ----------------- Header ------------------------- */
-.page-header {
-	background-color: #58FA58;
-	padding-left: 25px;
-	padding-top: 10px;
-	margin-top: 0px;
+/* ----------------- Inverse Panels --------------------- */
+.panel-inverse {
+	background-color: #222;
+    border-color: #080808;
+    color: #9d9d9d;
+}
+
+.thumbnail.thumb-inverse {
+	background-color: #2E2E2E;
+    border-color: #2E2E2E;
+}
+
+.thumbnail.caption-inverse {
+		color: #9d9d9d;
 }
