@@ -12,6 +12,12 @@ body {
     color: #9d9d9d;
 }
 
+.modal-inverse {
+	background-color: #222;
+    border-color: #080808;
+    color: #9d9d9d;
+}
+
 .thumbnail.thumb-inverse {
 	background-color: #2E2E2E;
     border-color: #2E2E2E;
