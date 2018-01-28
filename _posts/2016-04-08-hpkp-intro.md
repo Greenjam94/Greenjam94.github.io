@@ -1,0 +1,22 @@
+---
+layout: post
+title: HPKP - Public key pinning?
+---
+
+On a project I'm involved with, a vulnerability scanner has picked up a low issue where the HTTPS is missing HTTP Public Key Pins (HPKPs). If you're like me, you're probably thinking what the heck is HPKP? Well, I did a little bit of research and got it working on my personal website, I'll share my struggles below so you don't have to follow my footsteps.
+
+# The Theory
+Our browser stores a list of places that are accepted TLS/SSL certificate providers. If any website used a certificate that has one of those certificate authorities (CAs) as the root, then the browser will trust the certificate and not flag any errors. If only we had a way to check which CA was being used by a website, and if that CA ever changed, browsers would notify the end user.
+
+Public Key Pins are a "fingerprint" that match a server's TLS certificate. More specifically it's a base 64 encoded SHA256 hash of the certificate. The browser uses this HPKP to validate the certificate, since a different cert wouldn't be able to have the same pin. Browsers will store the HPKP on the first visit to a website, and will compare that stored pin to the pin attached to all future requests and make sure that the TLS certificate in the same. If they were different, it'd mean that either the certificate changed or (more likely) there is a man in the middle attack that is routing all the traffic and modifying the certificate chain.
+
+Pretty cool, right? Adding one header and your client's browsers will start complaining anytime someone changes the TLS certificate. That's a pretty nice security feature for a small amount of work. Well, it would be, if it wasn't redundant. From what I've seen while trying to test HPKP headers, modern browsers like the latest versions of Chrome and Firefox do a similar check with the TLS certificate alone, I think they compare the certs to see if they're different or if  the certificate's CA is trusted by the browser. Why do we need a hash if the entire TLS certificate will be compared by the browser?
+
+# Why bother with HPKP
+Honestly, I'd say to add HPKP because of a few reasons. I mentioned earlier that the latest versions of two browsers do this check, what if it's older? It's also better to be redundant and have two security controls then to have one and say "eh, it'll work, well, it should". At the very least, add the pin to reduce the issues found by scanners so you can be one step closer to having ZERO ISSUES! Which we all know is application security's wet dream. If you don't want to do it for the "compliance" aspect, you can always do it so [Qualys's SSL Lab](https://www.ssllabs.com/ssltest/) will cheer for you. When SSL Lab uses a exclamation point, you know you did the right thing.
+
+# HPKP Resources
+When I was doing my research on pinning, I went to a few different sources. All were great and very helpful. If after this you still don't understand htp public key pinning, feel free to leave a comment below with questions (I'll add more, I promise!) and check out the references below.
+* [Scott Helme's Blog posts](https://scotthelme.co.uk/hpkp-http-public-key-pinning/) <-- Great source of information
+* [OWASP](https://www.owasp.org/index.php/Certificate_and_Public_Key_Pinning)
+* [Mozilla](https://developer.mozilla.org/en-US/docs/Web/Security/Public_Key_Pinning)
